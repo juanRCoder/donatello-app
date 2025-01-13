@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <>HOME</>
+    <h1>HOME</h1>
   );
 }
