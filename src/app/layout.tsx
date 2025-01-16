@@ -1,4 +1,5 @@
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
+import Navbar from '@/components/Navbar';
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -16,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <AppRouterCacheProvider>
         <body className='flex'>
+          <Navbar/>
           {children}
         </body>
       </AppRouterCacheProvider>
