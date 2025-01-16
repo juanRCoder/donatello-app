@@ -1,5 +1,9 @@
-export default function Home() {
+import { Container, Typography } from "@mui/material";
+
+export default function Dashboard() {
   return (
-    <h1>HOME</h1>
+    <Container>
+      <Typography>Dashboard</Typography>
+    </Container>
   );
 }
