@@ -9,7 +9,7 @@ export default function Navbar() {
       </h1>
       <nav className='flex flex-col gap-[6px]'>
         <NavItem link='/' Icon={LayoutDashboard} label='dashboard' />
-        <NavItem link='/stock' Icon={Layers} label='stock' />
+        <NavItem link='/inventario' Icon={Layers} label='inventario' />
         <NavItem link='/finanzas' Icon={Coins} label='finanzas' />
         <NavItem link='/proovedores' Icon={UsersRound} label='proovedores' />
         <NavItem link='/menus' Icon={Utensils} label='menus' />
