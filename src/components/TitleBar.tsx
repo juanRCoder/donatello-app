@@ -14,7 +14,7 @@ export default function TitleBar({ Icon, title }: TitleBarProps) {
       </div>
       <div className='flex gap-2 items-center'>
         <h3 className='text-xl'>Juan Ramirez</h3>
-        <CircleUserRound className='w-8 h-8 text-primary_200' strokeWidth={2}/>
+        <CircleUserRound className='cursor-pointer w-10 h-10 text-primary_200' strokeWidth={2}/>
       </div>
     </header>
   )
