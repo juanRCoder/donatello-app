@@ -20,7 +20,6 @@ export default {
         cst_green: '#99F694',
         cst_white: '#E5E7EB',
         // --primary-100:#8B0000;
-        // --primary-200:#c2402a;
         // --primary-300:#ffa282;
         // --accent-100:#FF4500;
         // --text-100:#FFFFFF;
