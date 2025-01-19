@@ -3,7 +3,7 @@ import TitleBar from "@/components/TitleBar";
 import QuarterlyFinance from '@/components/dashboard/QuarterlyFinance';
 
 export default function Dashboard() {
-  // para poner bloques uno debajo de otros juan, debes colocar dentro de una caja, 2 cajas y darle flex-col con item-start asi haras un efecto mezclandose. asi evitaras el hueco que deja
+  // para poner bloques uno debajo de otros juan, debes colocar dentro de una caja, 2 cajas y darle flex-col con item-start asi haras un efecto mezclandose. asi evitaras el hueco que deja aqui
   return (
     <section className='px-8 pt-8 flex flex-col gap-16'>
       <TitleBar Icon={LayoutDashboard} title='Dashboard' />
