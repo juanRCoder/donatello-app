@@ -32,7 +32,7 @@ export default function FilterActions() {
           <span className="text-medium text-base">Agregar</span>
         </BtnCustom>
       </div>
-      {stateActions.addSupply && <ModalAddSupply onClick={()=> setStateActions(state => ({...state, addSupply: false}))}/>}
+      {stateActions.addSupply && <ModalAddSupply action="agregar" onClick={()=> setStateActions(state => ({...state, addSupply: false}))}/>}
     </section>
 
   )
