@@ -1,4 +1,5 @@
 import FilterActions from '@/components/inventario/FilterActions'
+import SupplyList from '@/components/inventario/SupplyList'
 import TitleBar from '@/components/TitleBar'
 import { Layers } from 'lucide-react'
 import React from 'react'
@@ -10,6 +11,7 @@ export default function InventarioPage() {
       <article>
         <FilterActions />
         <p className='py-4 text-sm font-light text-cst_white/50'>Seleccionar el insumo para habilitar botones de “editart” o “eliminar”.</p>
+        <SupplyList />
       </article>
     </section>
   )
